@@ -1,4 +1,4 @@
-import {quitarGif} from "./utils/utils.js";
+// import {quitarGif} from "./utils/utils.js";
 import {iterarSobreResumen} from "./utils/utils.js";
 
 const botonBusqueda = document.getElementById("botonBusqueda");
@@ -58,4 +58,3 @@ function pintarData(datos) {
   vel_viento.value = `${datos.windspd_kmh}km/h`;
   direc_viento.value = datos.winddir_compass;
 }
-
